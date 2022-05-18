@@ -1,0 +1,3190 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/max/ontologies/2022/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/max/ontologies/2022/3/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/max/ontologies/2022/3/untitled-ontology-4"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Apical_at_TipFlower_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Axillary_at_BaseFlower_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BallFlower_Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasalLeaf_Arrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BellFlower_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diodia_teres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FewFlower_Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FivePetal_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FourLeaf_NumberInWhorl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FourPetal_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_aparine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_asprellum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_boreale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_brevipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_circaezans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_concinnum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_labradoricum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_lanceolatum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_mollugo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_obtusum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_palustre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_tinctorium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_trifidum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_triflorum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galium_verum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_RoundLeaf_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Houstonia_caerulea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Houstonia_longifolia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land_Creeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land_Erect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Arrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Division"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Margin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Veins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitchella_repens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneHundredWildflower_MinSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrangeFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parallel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petal_MinLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petal_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petal_Tip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PinkFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PointedPetal_Tip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurpleFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RayedFlower_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeventyWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherardia_arvensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpikeFlower_Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenLeaf_MaxLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThirtyPetal_MaxLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThirtyWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThirtyWildflower_MinSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThreePetal_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransparentFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwentyPetal_MaxLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoHundredWildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wider_Near_TipLeaf_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_Flower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_GrowingIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_Leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wildflower_Petal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YellowFlower_Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1Flower_LongestDimensionCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10Petal_MinLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArrangement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClusterType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDivision"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrowingOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLongestFlowerMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMargin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxHeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaxLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMinHeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMinLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberLeavesInWhorl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPetalNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymmetry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTipStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVeins"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isArrangementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClusterTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isColorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDivisionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGrowingOnOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLongestFlowerMeasurementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMarginOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMaxHeightOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMaxLengthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinHeightOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinLengthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNumberLeavesInWhorlOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPetalNumberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPositionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isShapeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSymmetryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTipStyleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVeinsOf"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Apical_at_TipFlower_Position"/>
+        <Class IRI="#Flower_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Axillary_at_BaseFlower_Position"/>
+        <Class IRI="#Flower_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BallFlower_Cluster"/>
+        <Class IRI="#Flower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasalLeaf_Arrangement"/>
+        <Class IRI="#Leaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BellFlower_Shape"/>
+        <Class IRI="#Flower_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Axillary_at_BaseFlower_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#BellFlower_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Land_Creeping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#PinkFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#PointedPetal_Tip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#RayedFlower_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#RedFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FewFlower_Cluster"/>
+        <Class IRI="#Flower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FivePetal_Number"/>
+        <Class IRI="#Petal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Cluster"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Color"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Position"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Shape"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Symmetry"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FourLeaf_NumberInWhorl"/>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FourPetal_Number"/>
+        <Class IRI="#Petal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#BlueFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#Hairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#Parallel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#PurpleFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#TenLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#OneHundredWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#TwoHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#BallFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#FourLeaf_NumberInWhorl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#TenWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#ThreePetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#1Flower_LongestDimensionCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#GreenFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#SeventyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#TransparentFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#SpikeFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#BlueFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#PurpleFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#TenLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#ThirtyWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#TwoHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#BallFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#Wider_Near_TipLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#FourLeaf_NumberInWhorl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#ThreePetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#1Flower_LongestDimensionCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#FourLeaf_NumberInWhorl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Land_Creeping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Land_Erect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#ThreePetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#1Flower_LongestDimensionCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#BallFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#Land_Erect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#OrangeFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#ThirtyWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#YellowFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hairy"/>
+        <Class IRI="#Leaf_Margin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_RoundLeaf_Shape"/>
+        <Class IRI="#Leaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#Apical_at_TipFlower_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#BlueFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#PurpleFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#RayedFlower_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#ThirtyPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#ThirtyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#BasalLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#BlueFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#PurpleFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#ThirtyWildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land_Creeping"/>
+        <Class IRI="#Wildflower_GrowingIn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land_Erect"/>
+        <Class IRI="#Wildflower_GrowingIn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Arrangement"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Division"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Margin"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Shape"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Veins"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiinearLeaf_Shape"/>
+        <Class IRI="#Leaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LooseFlower_Cluster"/>
+        <Class IRI="#Flower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#FivePetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#Heart_RoundLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#TwentyPetal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#WhiteFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#10Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneHundredWildflower_MinSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+        <Class IRI="#Leaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrangeFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parallel"/>
+        <Class IRI="#Leaf_Veins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petal_MinLengthInMM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petal_Number"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petal_Tip"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PinkFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointedPetal_Tip"/>
+        <Class IRI="#Petal_Tip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurpleFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadialFlower_Symmetry"/>
+        <Class IRI="#Flower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RayedFlower_Shape"/>
+        <Class IRI="#Flower_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeventyWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#FewFlower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#FourPetal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#PinkFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#RadialFlower_Symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#RedFlower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#Simple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherardia_arvensis"/>
+        <Class IRI="#Wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simple"/>
+        <Class IRI="#Leaf_Division"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpikeFlower_Cluster"/>
+        <Class IRI="#Flower_Cluster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenLeaf_MaxLengthInCM"/>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThirtyPetal_MaxLengthInMM"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThirtyWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThirtyWildflower_MinSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThreePetal_Number"/>
+        <Class IRI="#Petal_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransparentFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwentyPetal_MaxLengthInMM"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoHundredWildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+        <Class IRI="#Leaf_Arrangement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+        <Class IRI="#Leaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wider_Near_TipLeaf_Shape"/>
+        <Class IRI="#Leaf_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wildflower_GrowingIn"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YellowFlower_Color"/>
+        <Class IRI="#Flower_Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1Flower_LongestDimensionCM"/>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+        <Class IRI="#Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10Petal_MinLengthInMM"/>
+        <Class IRI="#Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+        <Class IRI="#Petal_MinLengthInMM"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Apical_at_TipFlower_Position"/>
+        <Class IRI="#Axillary_at_BaseFlower_Position"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BallFlower_Cluster"/>
+        <Class IRI="#FewFlower_Cluster"/>
+        <Class IRI="#LooseFlower_Cluster"/>
+        <Class IRI="#SpikeFlower_Cluster"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BasalLeaf_Arrangement"/>
+        <Class IRI="#OppositeLeaf_Arrangement"/>
+        <Class IRI="#WhorledLeaf_Arrangement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BellFlower_Shape"/>
+        <Class IRI="#RayedFlower_Shape"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BlueFlower_Color"/>
+        <Class IRI="#GreenFlower_Color"/>
+        <Class IRI="#OrangeFlower_Color"/>
+        <Class IRI="#PinkFlower_Color"/>
+        <Class IRI="#PurpleFlower_Color"/>
+        <Class IRI="#RedFlower_Color"/>
+        <Class IRI="#TransparentFlower_Color"/>
+        <Class IRI="#WhiteFlower_Color"/>
+        <Class IRI="#YellowFlower_Color"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Characteristic"/>
+        <Class IRI="#Flower_Cluster"/>
+        <Class IRI="#Flower_Color"/>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+        <Class IRI="#Flower_Position"/>
+        <Class IRI="#Flower_Shape"/>
+        <Class IRI="#Flower_Symmetry"/>
+        <Class IRI="#Leaf_Arrangement"/>
+        <Class IRI="#Leaf_Division"/>
+        <Class IRI="#Leaf_Margin"/>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+        <Class IRI="#Leaf_Shape"/>
+        <Class IRI="#Leaf_Veins"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+        <Class IRI="#Petal_MinLengthInMM"/>
+        <Class IRI="#Petal_Number"/>
+        <Class IRI="#Petal_Tip"/>
+        <Class IRI="#Wildflower"/>
+        <Class IRI="#Wildflower_Flower"/>
+        <Class IRI="#Wildflower_GrowingIn"/>
+        <Class IRI="#Wildflower_Leaf"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Diodia_teres"/>
+        <Class IRI="#Galium_aparine"/>
+        <Class IRI="#Galium_asprellum"/>
+        <Class IRI="#Galium_boreale"/>
+        <Class IRI="#Galium_brevipes"/>
+        <Class IRI="#Galium_circaezans"/>
+        <Class IRI="#Galium_concinnum"/>
+        <Class IRI="#Galium_labradoricum"/>
+        <Class IRI="#Galium_lanceolatum"/>
+        <Class IRI="#Galium_mollugo"/>
+        <Class IRI="#Galium_obtusum"/>
+        <Class IRI="#Galium_palustre"/>
+        <Class IRI="#Galium_tinctorium"/>
+        <Class IRI="#Galium_trifidum"/>
+        <Class IRI="#Galium_triflorum"/>
+        <Class IRI="#Galium_verum"/>
+        <Class IRI="#Houstonia_caerulea"/>
+        <Class IRI="#Houstonia_longifolia"/>
+        <Class IRI="#Mitchella_repens"/>
+        <Class IRI="#Sherardia_arvensis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FiftyWildflower_MaxSizeInCM"/>
+        <Class IRI="#OneHundredWildflower_MaxSizeInCM"/>
+        <Class IRI="#SeventyWildflower_MaxSizeInCM"/>
+        <Class IRI="#TenWildflower_MaxSizeInCM"/>
+        <Class IRI="#ThirtyWildflower_MaxSizeInCM"/>
+        <Class IRI="#TwoHundredWildflower_MaxSizeInCM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FiveLeaf_MaxLengthInCM"/>
+        <Class IRI="#TenLeaf_MaxLengthInCM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FivePetal_Number"/>
+        <Class IRI="#FourPetal_Number"/>
+        <Class IRI="#ThreePetal_Number"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Flower_Cluster"/>
+        <Class IRI="#Flower_Color"/>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+        <Class IRI="#Flower_Position"/>
+        <Class IRI="#Flower_Shape"/>
+        <Class IRI="#Flower_Symmetry"/>
+        <Class IRI="#Leaf_Arrangement"/>
+        <Class IRI="#Leaf_Division"/>
+        <Class IRI="#Leaf_Margin"/>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+        <Class IRI="#Leaf_Shape"/>
+        <Class IRI="#Leaf_Veins"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+        <Class IRI="#Petal_Number"/>
+        <Class IRI="#Petal_Tip"/>
+        <Class IRI="#Wildflower_GrowingIn"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Heart_RoundLeaf_Shape"/>
+        <Class IRI="#LiinearLeaf_Shape"/>
+        <Class IRI="#Wider_Near_MiddleLeaf_Shape"/>
+        <Class IRI="#Wider_Near_TipLeaf_Shape"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Land_Creeping"/>
+        <Class IRI="#Land_Erect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OneHundredWildflower_MinSizeInCM"/>
+        <Class IRI="#OneWildflower_MinSizeInCM"/>
+        <Class IRI="#TenWildflower_MinSizeInCM"/>
+        <Class IRI="#ThirtyWildflower_MinSizeInCM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OneLeaf_MinLengthInCM"/>
+        <Class IRI="#ZeroLeaf_MinLengthInCM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TenPetal_MaxLengthInMM"/>
+        <Class IRI="#ThirtyPetal_MaxLengthInMM"/>
+        <Class IRI="#ThreePetal_MaxLengthInMM"/>
+        <Class IRI="#TwentyPetal_MaxLengthInMM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Wildflower"/>
+        <Class IRI="#Wildflower_Flower"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#1Petal_MinLengthInMM"/>
+        <Class IRI="#10Petal_MinLengthInMM"/>
+        <Class IRI="#4Petal_MinLengthInMM"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasArrangement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClusterType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDivision"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLongestFlowerMeasurement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMargin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaxHeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMinHeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNumberLeavesInWhorl"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPosition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasShape"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSymmetry"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTipStyle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVeins"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isArrangementOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isClusterTypeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isColorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDivisionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLongestFlowerMeasurementOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMarginOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMaxHeightOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMaxLengthOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinHeightOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinLengthOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isNumberLeavesInWhorlOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPositionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isShapeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSymmetryOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTipStyleOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isVeinsOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasArrangement"/>
+        <ObjectProperty IRI="#isArrangementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasClusterType"/>
+        <ObjectProperty IRI="#isClusterTypeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#isColorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDivision"/>
+        <ObjectProperty IRI="#isDivisionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGrowingOn"/>
+        <ObjectProperty IRI="#isGrowingOnOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLongestFlowerMeasurement"/>
+        <ObjectProperty IRI="#isLongestFlowerMeasurementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMargin"/>
+        <ObjectProperty IRI="#isMarginOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMaxHeight"/>
+        <ObjectProperty IRI="#isMaxHeightOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <ObjectProperty IRI="#isMaxLengthOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMinHeight"/>
+        <ObjectProperty IRI="#isMinHeightOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <ObjectProperty IRI="#isMinLengthOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNumberLeavesInWhorl"/>
+        <ObjectProperty IRI="#isNumberLeavesInWhorlOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPetalNumber"/>
+        <ObjectProperty IRI="#isPetalNumberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPosition"/>
+        <ObjectProperty IRI="#isPositionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasShape"/>
+        <ObjectProperty IRI="#isShapeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSymmetry"/>
+        <ObjectProperty IRI="#isSymmetryOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTipStyle"/>
+        <ObjectProperty IRI="#isTipStyleOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasVeins"/>
+        <ObjectProperty IRI="#isVeinsOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArrangement"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClusterType"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDivision"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrowingOn"/>
+        <Class IRI="#Wildflower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLongestFlowerMeasurement"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMargin"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxHeight"/>
+        <Class IRI="#Wildflower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMinHeight"/>
+        <Class IRI="#Wildflower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberLeavesInWhorl"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Wildflower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPetalNumber"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPosition"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymmetry"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTipStyle"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVeins"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArrangement"/>
+        <Class IRI="#Leaf_Arrangement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClusterType"/>
+        <Class IRI="#Flower_Cluster"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Flower_Color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDivision"/>
+        <Class IRI="#Leaf_Division"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGrowingOn"/>
+        <Class IRI="#Wildflower_GrowingIn"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLongestFlowerMeasurement"/>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMargin"/>
+        <Class IRI="#Leaf_Margin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxHeight"/>
+        <Class IRI="#Wildflower_MaxSizeInCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Flower_LongestDimensionCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Leaf_MaxLengthInCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaxLength"/>
+        <Class IRI="#Petal_MaxLengthInMM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMinHeight"/>
+        <Class IRI="#Wildflower_MinSizeInCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <Class IRI="#Leaf_MinLengthInCM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMinLength"/>
+        <Class IRI="#Petal_MinLengthInMM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberLeavesInWhorl"/>
+        <Class IRI="#Leaf_NumberInWhorl"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Wildflower_Flower"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Wildflower_Leaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Wildflower_Petal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPetalNumber"/>
+        <Class IRI="#Petal_Number"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPosition"/>
+        <Class IRI="#Flower_Position"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#Flower_Shape"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#Leaf_Shape"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymmetry"/>
+        <Class IRI="#Flower_Symmetry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTipStyle"/>
+        <Class IRI="#Petal_Tip"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVeins"/>
+        <Class IRI="#Leaf_Veins"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Apical_at_TipFlower_Position</IRI>
+        <Literal xml:lang="en">Apical_at_TipFlower_Position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Axillary_at_BaseFlower_Position</IRI>
+        <Literal xml:lang="en">Axillary_at_BaseFlower_Position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BallFlower_Cluster</IRI>
+        <Literal xml:lang="en">BallFlower_Cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BasalLeaf_Arrangement</IRI>
+        <Literal xml:lang="en">BasalLeaf_Arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BellFlower_Shape</IRI>
+        <Literal xml:lang="en">BellFlower_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BlueFlower_Color</IRI>
+        <Literal xml:lang="en">BlueFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diodia_teres</IRI>
+        <Literal xml:lang="en">Diodia_teres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FewFlower_Cluster</IRI>
+        <Literal xml:lang="en">FewFlower_Cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FiftyWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">50Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FiveLeaf_MaxLengthInCM</IRI>
+        <Literal xml:lang="en">5Leaf_MaxLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FivePetal_Number</IRI>
+        <Literal xml:lang="en">5Petal_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_Cluster</IRI>
+        <Literal xml:lang="en">Flower_Cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_Color</IRI>
+        <Literal xml:lang="en">Flower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_LongestDimensionCM</IRI>
+        <Literal xml:lang="en">Flower_LongestDimensionCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_Position</IRI>
+        <Literal xml:lang="en">Flower_Position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_Shape</IRI>
+        <Literal xml:lang="en">Flower_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flower_Symmetry</IRI>
+        <Literal xml:lang="en">Flower_Symmetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FourLeaf_NumberInWhorl</IRI>
+        <Literal xml:lang="en">4Leaf_NumberInWhorl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FourPetal_Number</IRI>
+        <Literal xml:lang="en">4Petal_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_aparine</IRI>
+        <Literal xml:lang="en">Galium_aparine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_asprellum</IRI>
+        <Literal xml:lang="en">Galium_asprellum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_boreale</IRI>
+        <Literal xml:lang="en">Galium_boreale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_brevipes</IRI>
+        <Literal xml:lang="en">Galium_brevipes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_circaezans</IRI>
+        <Literal xml:lang="en">Galium_circaezans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_concinnum</IRI>
+        <Literal xml:lang="en">Galium_concinnum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_labradoricum</IRI>
+        <Literal xml:lang="en">Galium_labradoricum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_lanceolatum</IRI>
+        <Literal xml:lang="en">Galium_lanceolatum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_mollugo</IRI>
+        <Literal xml:lang="en">Galium_mollugo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_obtusum</IRI>
+        <Literal xml:lang="en">Galium_obtusum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_palustre</IRI>
+        <Literal xml:lang="en">Galium_palustre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_tinctorium</IRI>
+        <Literal xml:lang="en">Galium_tinctorium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_trifidum</IRI>
+        <Literal xml:lang="en">Galium_trifidum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_triflorum</IRI>
+        <Literal xml:lang="en">Galium_triflorum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galium_verum</IRI>
+        <Literal xml:lang="en">Galium_verum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GreenFlower_Color</IRI>
+        <Literal xml:lang="en">GreenFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hairy</IRI>
+        <Literal xml:lang="en">Hairy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heart_RoundLeaf_Shape</IRI>
+        <Literal xml:lang="en">Heart_RoundLeaf_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Houstonia_caerulea</IRI>
+        <Literal xml:lang="en">Houstonia_caerulea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Houstonia_longifolia</IRI>
+        <Literal xml:lang="en">Houstonia_longifolia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Land_Creeping</IRI>
+        <Literal xml:lang="en">Land_Creeping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Land_Erect</IRI>
+        <Literal xml:lang="en">Land_Erect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_Arrangement</IRI>
+        <Literal xml:lang="en">Leaf_Arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_Division</IRI>
+        <Literal xml:lang="en">Leaf_Division</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_Margin</IRI>
+        <Literal xml:lang="en">Leaf_Margin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_MaxLengthInCM</IRI>
+        <Literal xml:lang="en">Leaf_MaxLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_MinLengthInCM</IRI>
+        <Literal xml:lang="en">Leaf_MinLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_NumberInWhorl</IRI>
+        <Literal xml:lang="en">Leaf_NumberInWhorl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_Shape</IRI>
+        <Literal xml:lang="en">Leaf_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leaf_Veins</IRI>
+        <Literal xml:lang="en">Leaf_Veins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LiinearLeaf_Shape</IRI>
+        <Literal xml:lang="en">LinearLeaf_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LooseFlower_Cluster</IRI>
+        <Literal xml:lang="en">LooseFlower_Cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mitchella_repens</IRI>
+        <Literal xml:lang="en">Mitchella_repens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneHundredWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">100Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneHundredWildflower_MinSizeInCM</IRI>
+        <Literal xml:lang="en">100Wildflower_MinSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneLeaf_MinLengthInCM</IRI>
+        <Literal xml:lang="en">1Leaf_MinLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneWildflower_MinSizeInCM</IRI>
+        <Literal xml:lang="en">1Wildflower_MinSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OppositeLeaf_Arrangement</IRI>
+        <Literal xml:lang="en">OppositeLeaf_Arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrangeFlower_Color</IRI>
+        <Literal xml:lang="en">OrangeFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parallel</IRI>
+        <Literal xml:lang="en">Parallel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Petal_MaxLengthInMM</IRI>
+        <Literal xml:lang="en">Petal_MaxLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Petal_MinLengthInMM</IRI>
+        <Literal xml:lang="en">Petal_MinLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Petal_Number</IRI>
+        <Literal xml:lang="en">Petal_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Petal_Tip</IRI>
+        <Literal xml:lang="en">Petal_Tip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PinkFlower_Color</IRI>
+        <Literal xml:lang="en">PinkFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PointedPetal_Tip</IRI>
+        <Literal xml:lang="en">PointedPetal_Tip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PurpleFlower_Color</IRI>
+        <Literal xml:lang="en">PurpleFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RadialFlower_Symmetry</IRI>
+        <Literal xml:lang="en">RadialFlower_Symmetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RayedFlower_Shape</IRI>
+        <Literal xml:lang="en">RayedFlower_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RedFlower_Color</IRI>
+        <Literal xml:lang="en">RedFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeventyWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">70Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sherardia_arvensis</IRI>
+        <Literal xml:lang="en">Sherardia_arvensis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Simple</IRI>
+        <Literal xml:lang="en">Simple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SpikeFlower_Cluster</IRI>
+        <Literal xml:lang="en">SpikeFlower_Cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TenLeaf_MaxLengthInCM</IRI>
+        <Literal xml:lang="en">10Leaf_MaxLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TenPetal_MaxLengthInMM</IRI>
+        <Literal xml:lang="en">10Petal_MaxLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TenWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">10Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TenWildflower_MinSizeInCM</IRI>
+        <Literal xml:lang="en">10Wildflower_MinSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThirtyPetal_MaxLengthInMM</IRI>
+        <Literal xml:lang="en">30Petal_MaxLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThirtyWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">30Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThirtyWildflower_MinSizeInCM</IRI>
+        <Literal xml:lang="en">30Wildflower_MinSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThreePetal_MaxLengthInMM</IRI>
+        <Literal xml:lang="en">3Petal_MaxLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ThreePetal_Number</IRI>
+        <Literal xml:lang="en">3Petal_Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransparentFlower_Color</IRI>
+        <Literal xml:lang="en">TransparentFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TwentyPetal_MaxLengthInMM</IRI>
+        <Literal xml:lang="en">20Petal_MaxLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TwoHundredWildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">200Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteFlower_Color</IRI>
+        <Literal xml:lang="en">WhiteFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhorledLeaf_Arrangement</IRI>
+        <Literal xml:lang="en">WhorledLeaf_Arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wider_Near_MiddleLeaf_Shape</IRI>
+        <Literal xml:lang="en">Wider_Near_MiddleLeaf_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wider_Near_TipLeaf_Shape</IRI>
+        <Literal xml:lang="en">Wider_Near_TipLeaf_Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower</IRI>
+        <Literal xml:lang="en">Wildflower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_Flower</IRI>
+        <Literal xml:lang="en">Wildflower_Flower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_GrowingIn</IRI>
+        <Literal xml:lang="en">Wildflower_GrowingIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_Leaf</IRI>
+        <Literal xml:lang="en">Wildflower_Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_MaxSizeInCM</IRI>
+        <Literal xml:lang="en">Wildflower_MaxSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_MinSizeInCM</IRI>
+        <Literal xml:lang="en">Wildflower_MinSizeInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wildflower_Petal</IRI>
+        <Literal xml:lang="en">Wildflower_Petal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#YellowFlower_Color</IRI>
+        <Literal xml:lang="en">YellowFlower_Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ZeroLeaf_MinLengthInCM</IRI>
+        <Literal xml:lang="en">0Leaf_MinLengthInCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasArrangement</IRI>
+        <Literal xml:lang="en">hasArrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasClusterType</IRI>
+        <Literal xml:lang="en">hasClusterType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasColor</IRI>
+        <Literal xml:lang="en">hasColor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDivision</IRI>
+        <Literal xml:lang="en">hasDivision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasGrowingOn</IRI>
+        <Literal xml:lang="en">hasGrowingOn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLongestFlowerMeasurement</IRI>
+        <Literal xml:lang="en">hasLongestFlowerMeasurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMargin</IRI>
+        <Literal xml:lang="en">hasMargin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMaxHeight</IRI>
+        <Literal xml:lang="en">hasMaxHeight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMaxLength</IRI>
+        <Literal xml:lang="en">hasMaxLength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMinHeight</IRI>
+        <Literal xml:lang="en">hasMinHeight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMinLength</IRI>
+        <Literal xml:lang="en">hasMinLength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNumberLeavesInWhorl</IRI>
+        <Literal xml:lang="en">hasNumberLeavesInWhorl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPart</IRI>
+        <Literal xml:lang="en">hasPart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPetalNumber</IRI>
+        <Literal xml:lang="en">hasPetalNumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPosition</IRI>
+        <Literal xml:lang="en">hasPosition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasShape</IRI>
+        <Literal xml:lang="en">hasShape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSymmetry</IRI>
+        <Literal xml:lang="en">hasSymmetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTipStyle</IRI>
+        <Literal xml:lang="en">hasTipStyle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasVeins</IRI>
+        <Literal xml:lang="en">hasVeins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isArrangementOf</IRI>
+        <Literal xml:lang="en">isArrangementOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isClusterTypeOf</IRI>
+        <Literal xml:lang="en">isClusterTypeOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isColorOf</IRI>
+        <Literal xml:lang="en">isColorOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isDivisionOf</IRI>
+        <Literal xml:lang="en">isDivisionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isGrowingOnOf</IRI>
+        <Literal xml:lang="en">isGrowingOnOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLongestFlowerMeasurementOf</IRI>
+        <Literal xml:lang="en">isLongestFlowerMeasurementOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMarginOf</IRI>
+        <Literal xml:lang="en">isMarginOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMaxHeightOf</IRI>
+        <Literal xml:lang="en">isMaxHeightOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMaxLengthOf</IRI>
+        <Literal xml:lang="en">isMaxLengthOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMinHeightOf</IRI>
+        <Literal xml:lang="en">isMinHeightOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMinLengthOf</IRI>
+        <Literal xml:lang="en">isMinLengthOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isNumberLeavesInWhorlOf</IRI>
+        <Literal xml:lang="en">isNumberLeavesInWhorlOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPartOf</IRI>
+        <Literal xml:lang="en">isPartOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPetalNumberOf</IRI>
+        <Literal xml:lang="en">isPetalNumberOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPositionOf</IRI>
+        <Literal xml:lang="en">isPositionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isShapeOf</IRI>
+        <Literal xml:lang="en">isShapeOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSymmetryOf</IRI>
+        <Literal xml:lang="en">isSymmetryOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isTipStyleOf</IRI>
+        <Literal xml:lang="en">isTipStyleOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isVeinsOf</IRI>
+        <Literal xml:lang="en">isVeinsOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1Flower_LongestDimensionCM</IRI>
+        <Literal xml:lang="en">1Flower_LongestDimensionCM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1Petal_MinLengthInMM</IRI>
+        <Literal xml:lang="en">1Petal_MinLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#10Petal_MinLengthInMM</IRI>
+        <Literal xml:lang="en">10Petal_MinLengthInMM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#4Petal_MinLengthInMM</IRI>
+        <Literal xml:lang="en">4Petal_MinLengthInMM</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
